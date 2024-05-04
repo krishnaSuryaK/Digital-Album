@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.album-container {
+    text-align: center; 
+}
+.image-viewer img{
+    width: 500px;
+    height: 400px;
+}
+.navigation button {
+    margin: 5px;
+    border: none;
+}
+.navigation button :hover{ 
+    border: 2px solid blue;
+}
+.film-strip {
+    height: 70px;
+    width:61%;
+    border: 2px solid black;
+    margin-left: 20%;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+.film-strip img{
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 3px;
+    border: 1px solid black;
+}
+.film-strip  :hover{
+    border:5px solid red;
+}

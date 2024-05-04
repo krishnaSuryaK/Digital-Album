@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Album</title>
+    <link rel="stylesheet" href="style.css">
+    <a  href="https://icons8.com/icon/aOzRiLTBdqCE/previous"></a><a href="https://icons8.com"></a>
+</head>
+<body>
+    <div class="album-container">
+        <div class="title">
+            <h1>Beauty of Nature</h1>
+        </div>
+        <hr>
+        <div class="image-viewer">
+            <img id="current-image" src="image1.jpg" alt="Nature Image">
+        </div>
+        <div class="film-strip">
+            <!-- Images will be dynamically added here -->   
+        </div>
+        <div class="navigation">
+            <button onclick="firstImage()" ><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/rewind-button-round.png" alt="rewind-button-round"/></button>
+            <button onclick="previousImage()"><img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/first.png" alt="first"/></button>
+            <button onclick="nextImage()"><img  style="transform: scaleX(-1)" width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/first.png" alt="first"/></button>
+            <button onclick="lastImage()"><img style="transform: scaleX(-1)" width="50" height="50" src="https://img.icons8.com/ios-filled/50/rewind-button-round.png" alt="rewind-button-round"/></button>
+            <button onclick="shuffleImages()"><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/shuffle.png" alt="shuffle"/></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
